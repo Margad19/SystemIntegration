@@ -4,9 +4,10 @@ export const apiTravel = axios.create({
   baseURL: "https://travel-advisor.p.rapidapi.com",
 });
 
-apiTravel.defaults.headers.common["x-rapidapi-key"] =
-  process.env.REACT_APP_RAPID_API;
-apiTravel.defaults.headers.common["x-rapidapi-host"] =
+//apiTravel.defaults.headers.common["x-rapidapi-key"] = process.env.REACT_APP_RAPID_API;
+apiTravel.defaults.headers.common["x-rapidapi-key"] = 
+  "c1816d2bc3msh4b79be4eeb2be81p1d0bacjsnc69180362b27";
+  apiTravel.defaults.headers.common["x-rapidapi-host"] =
   "travel-advisor.p.rapidapi.com";
 
 export const getPlaces = async (type, sw, ne) => {
@@ -26,4 +27,4 @@ export const getPlaces = async (type, sw, ne) => {
     return error;
   }
 };
-console.log("RapidAPI Key:", process.env.REACT_APP_RAPID_API);
+//console.log("RapidAPI Key:", process.env.REACT_APP_RAPID_API);
