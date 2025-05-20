@@ -42,19 +42,19 @@ const HomeAddCard = (props) => {
             }}
           >
             <Typography variant="h6" component="div" sx={{fontWeight: 500}}>
-              Let's go travel
+              Хамтдаа аялцгаая!
             </Typography>
             <Typography variant="body2" gutterBottom component="div">
-            Plan your next adventure!
+            Дараачийн аялалаа төлөвлөөрэй!
             </Typography>
           </Box>
           <Button
             variant="outlined"
-            sx={{ height: 50, width: 160, backgroundColor: "white", mt:2, mb: 2 }}
+            sx={{ height: 50, width: 220, backgroundColor: "white", mt:2, mb: 2 }}
             onClick={handleOnClick}
           >
             <LuggageRoundedIcon />
-            Create a Trip
+            Төлөвлөгөө үүсгэх
           </Button>
         </Box>
       </Container>

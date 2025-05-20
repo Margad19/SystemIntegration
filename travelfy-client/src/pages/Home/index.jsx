@@ -102,7 +102,7 @@ export default function HomePage({ user, ...props }) {
         >
           <HomeAddCard />
           <Typography variant="h5" mt={1}>
-            Popular destinations
+            Алдартай газрууд
           </Typography>
         </Box>
         <Grid

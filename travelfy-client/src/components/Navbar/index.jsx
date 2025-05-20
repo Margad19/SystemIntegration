@@ -254,7 +254,7 @@ export default function MiniDrawer({ user, ...props }) {
                   sx={{ backgroundColor: buttonColor, '&:hover': { backgroundColor: buttonColorHover } }}
                 >
                   <AccountCircleRoundedIcon fontSize="small" sx={{mr:1}}/>
-                  Login
+                  Нэвтрэх
                 </Button>
               )}
             </Box>

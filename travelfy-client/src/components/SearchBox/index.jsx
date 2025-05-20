@@ -27,7 +27,7 @@ const SearchBox = ({ setCoordinates }) => {
         <TextField
           id="outlined-basic"
           color="secondary"
-          label="Where to?"
+          label="Хаашаа аялах вэ?"
           variant="outlined"
           inputRef={ref}
           InputProps={{

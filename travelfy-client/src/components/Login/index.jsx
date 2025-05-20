@@ -56,7 +56,7 @@ const Login = (props) => {
     <div className="login-wrapper">
       <AccountCircleIcon fontSize="large" color="primary" />
       <Typography variant="h5" gutterBottom component="div">
-        Login
+        Нэвтрэх
       </Typography>
       <form onSubmit={handleSubmit}>
         <TextField
@@ -87,11 +87,11 @@ const Login = (props) => {
         </div>
         <div className="submit-button">
           <Button variant="contained" onClick={handleSubmit}>
-            Login
+            Нэвтрэх
           </Button>
           <div className="signup-button">
             <Button variant="contained" onClick={handleSubmitSignUp}>
-              Don't have an account? Sign up
+              Аккаунт байхгуй бол бүртгүүлнэ үү
             </Button>
           </div>
           <Typography variant="body2" color="error">

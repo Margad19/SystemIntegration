@@ -53,7 +53,7 @@ const NewTripForm = ({ open, setOpen, ...props }) => {
                 name="title"
                 value={tripName}
                 onChange={handleChange}
-                label="Create a Trip"
+                label="Төлөвлөгөө үүсгэх"
                 InputProps={{
                   startAdornment: (
                     <InputAdornment position="start">
