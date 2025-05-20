@@ -7,7 +7,6 @@ export const baseURL = isProduction
   : "http://localhost:5005/api";
 
 export const apiServer = axios.create({
-  baseURL,
-  withCredentials: true,
-  timeout: 7500,
+  baseURL: "http://localhost:5005/api",
+  withCredentials: true,  // ✅ Required to send JWT cookies
 });
